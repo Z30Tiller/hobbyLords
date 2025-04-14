@@ -4,25 +4,6 @@
     <meta charset="UTF-8">
     <title>Aether Corp Shop</title>
     @vite('resources/css/app.css')
-    <style>
-        /* Simple animated starfield background */
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0; left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
-            background-size: 20px 20px;
-            animation: pulse-bg 10s linear infinite;
-            z-index: -1;
-        }
-
-        @keyframes pulse-bg {
-            0% { background-position: 0 0; }
-            100% { background-position: 100% 100%; }
-        }
-    </style>
 </head>
 <body class="bg-gradient-to-br from-black via-zinc-900 to-purple-900 text-white min-h-screen flex items-center justify-center">
 
